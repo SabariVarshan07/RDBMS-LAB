@@ -3,9 +3,9 @@ CREATE DATABASE CollegeDB;
 USE CollegeDB;
 
 CREATE TABLE Student (
-    StudentID NUMBER(5) PRIMARY KEY,
-    StudentName VARCHAR2(20) NOT NULL,
+    StudentID int(5) PRIMARY KEY,
+    StudentName VARCHAR(20) NOT NULL,
     DOB DATE,
-    Gender VARCHAR2(10),
-    DepartmentID NUMBER(5) UNIQUE NOT NULL
+    Gender VARCHAR(10),
+    DepartmentID int(5) UNIQUE NOT NULL
 );

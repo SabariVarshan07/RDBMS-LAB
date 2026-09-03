@@ -3,10 +3,10 @@ CREATE DATABASE CollegeDB;
 USE CollegeDB;
 
 CREATE TABLE Employee (
-    EmployeeID NUMBER(5) PRIMARY KEY,
-    EmployeeName VARCHAR2(20),
-    Department VARCHAR2(20),
-    Salary NUMBER(10)
+    EmployeeID int(5) PRIMARY KEY,
+    EmployeeName VARCHAR(20),
+    Department VARCHAR(20),
+    Salary int(10)
 );
 
 INSERT INTO Employee VALUES (101, 'Ravi', 'HR', 25000);

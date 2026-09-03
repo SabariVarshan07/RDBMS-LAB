@@ -4,10 +4,10 @@ USE CollegeDB;
 
 
 CREATE TABLE Marksheet (
-    RollNo NUMBER(5) PRIMARY KEY,
-    Name VARCHAR2(20),
-    Department VARCHAR2(20),
-    Marks NUMBER(3)
+    RollNo int(5) PRIMARY KEY,
+    Name VARCHAR(20),
+    Department VARCHAR(20),
+    Marks int(3)
 );
 INSERT INTO Marksheet VALUES (1, 'Arun', 'CSE', 85);
 INSERT INTO Marksheet VALUES (2, 'Divya', 'IT', 78);
